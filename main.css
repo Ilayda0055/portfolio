@@ -1,0 +1,161 @@
+body{
+    background-color: #efcad4
+}
+
+p, li{
+    font-size: 20px;
+}
+
+header {
+    background-color: #b82d2a;
+    padding: 1px;
+    margin-top: 10px;
+   text-align: center;
+    border: 3px solid #871917;
+}
+
+nav{
+    background-color: #8f2923;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 3px solid #871917;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+nav a{
+    color: #eae2d9;
+}
+nav a:hover{
+    color: #b8b9a2;
+}
+
+#about-me{
+    background-color: #f78f91;
+    padding: 5px;
+    margin-top: 15px;
+    border: 3px solid #871917;
+}
+#about-me h2{
+    text-align: center;
+    background-color: #da5857;
+    padding: 10px;
+    margin: 0px;
+}
+.me-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    gap: 10px;
+}
+
+.pic img{
+    border-radius: 20px;
+}
+.pic{
+    padding-right: 20px;
+}
+
+#work-experience{
+    background-color: #f78f91;
+    padding: 5px;
+    margin-top: 20px;
+    border: 3px solid #871917;
+}
+#work-experience h2{
+    text-align: center;
+    background-color: #da5857;
+    padding: 10px;
+    margin: 0px;
+}
+.work-box{
+    padding-left: 15px;
+}
+
+
+#education{
+    background-color: #f78f91;
+    padding: 5px;
+    margin-top: 20px;
+    line-height: 25px;
+    border: 3px solid #871917;
+}
+#education h2{
+    text-align: center;
+    background-color: #da5857;
+    padding: 10px;
+    margin: 0px;
+}
+.ed-box{
+    padding-left: 15px;
+}
+
+.hs-year{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin: 10px;
+    margin-bottom: -25px;
+}
+
+.uni-year{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin: 10px;
+    margin-bottom: -25px;
+}
+
+#skills{
+    background-color: #f78f91;
+    padding: 5px;
+    margin-top: 20px;
+    line-height: 35px;
+    border: 3px solid #871917;
+}
+#skills h2{
+    text-align: center;
+    background-color: #da5857;
+    padding: 10px;
+    margin: 0px;
+}
+.skills-box{
+    padding-left: 15px;
+}
+
+footer{
+    background-color: #ef5c5a;
+    padding: 5px;
+    margin-top: 20px;
+    border: 3px solid #871917;
+}
+footer h2 {
+    text-align: center;
+    background-color: #b83734;
+    padding: 10px;
+    margin: 0px;
+}
+footer p{
+    padding-left: 15px;
+}
+
+hr{
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .me-box {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
