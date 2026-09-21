@@ -131,16 +131,17 @@ nav a:hover{
 }
 
 footer{
-    background-color: #ef5c5a;
+    background-color: #b82d2a;
     padding: 5px;
     margin-top: 20px;
     border: 3px solid #871917;
 }
 footer h2 {
     text-align: center;
-    background-color: #b83734;
+    background-color: #8f2923;
     padding: 10px;
     margin: 0px;
+    border: 1px solid #871917;
 }
 footer p{
     padding-left: 15px;
